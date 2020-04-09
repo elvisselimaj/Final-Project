@@ -1,13 +1,13 @@
 # # my_project_coronavirus
 
 Final project for Data Analytics and Visualization
-Feb 2020 – Mar 2020
+Feb 2020 â€“ Mar 2020
 
 Project description?? The final graduation project for Data Analytics and Visualization at The George Washington University.
 
-?? Build and deploy webpage for childhood immunization: https://childhood-immunizations.herokuapp.com/
-?? Responsible for building dashboards in Tableau, gather inputs, and upload on Heroku.
-?? Used: Heroku, Platform as a Service (PaaS), HTML, Javascript, CSS, PostgreSQL database, Tableau Desktop, Machine Learning, Pandas (Jupiter notebook) and Plotly.
+- Build and deploy webpage for childhood immunization: https://childhood-immunizations.herokuapp.com/
+- Responsible for building dashboards in Tableau, gather inputs, and upload on Heroku.
+- Used: Heroku, Platform as a Service (PaaS), HTML, Javascript, CSS, PostgreSQL database, Tableau Desktop, Machine Learning, Pandas (Jupiter notebook) and Plotly.
 
 Outline:
 
