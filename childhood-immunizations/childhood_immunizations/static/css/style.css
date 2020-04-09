@@ -1,0 +1,519 @@
+/* ======================================
+Google fonts for reference:
+font-family: 'Roboto', sans-serif;
+font-family: 'Georgia', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Roboto Mono', monospace;
+====================================== */
+
+
+/* ======================================
+ Tag Data
+ ====================================== */
+ 
+ body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url("https://cdn.pixabay.com/photo/2020/03/04/15/36/corona-4901878_1280.jpg");
+ }
+ 
+ h1 {
+     font-family: 'Arial', serif;
+     font-weight: bold;
+     font-size: 50px;
+     color: snow;
+     text-shadow: 2px 2px black;
+     text-align: center;
+ }
+ 
+ h2 {
+     font-family: 'Arial', monospace;
+     /* font-size: 30px; */
+     text-align: center;
+     font-weight: bold;
+     color: snow;
+     text-shadow: 2px 2px black;
+ }
+ 
+ h3 {
+     font-family: 'Arial', sans-serif;
+     font-size: 20px;
+     text-align: center;
+     color: snow;
+     line-height: 1.75em;
+     text-shadow: 2px 2px black;
+ }
+ 
+ h4 {
+     font-family: 'Arial', monospace;
+     font-size: 20px;
+     text-align: center;
+     font-weight: bold;
+     color: rgb(235, 45, 31);
+     text-shadow: 2px 2px black;
+ }
+ 
+ h5 {
+     font-family: 'Arial', sans-serif;
+     font-size: 45px;
+     text-align: center;
+     font-weight: bold;
+     color: rgb(72, 209, 204);
+     padding: 25px;
+     text-shadow: 2px 2px black;
+ }
+ 
+ p {
+     font-family: 'Arial', sans-serif;
+     font-size: 16px;
+     text-align: left;
+     color: rgb(34, 33, 33);
+     display: block;
+     margin: 10px;
+     line-height: 2em;
+ }
+ 
+ button {
+     margin: 0 auto;
+     color: black !important;
+     font-family: 'Arial', sans-serif;
+     font-size: 12px;
+     text-align: center;
+     font-weight: bold;
+ }
+ 
+ul .a {
+    text-align: center;
+    list-style-position: inside;
+}
+
+li {
+    list-style-position: inside;
+    padding: 15px;
+    color: black;
+    padding: 10px;
+    list-style-type: square;
+    text-shadow: transparent;
+}
+
+ .button {
+     font-family: 'Arial', sans-serif !important;
+     font-size: 16px;
+     padding: 15px 32px;
+     text-align: center;
+     /* text-decoration: none; */
+     display: inline-block;
+     font-size: 15px;
+     color: black
+   }
+
+.footer {
+    color: snow;
+    text-align: center;
+    background-color: #AD221B;
+}
+ /* overlay an opaque dark color so the text will still show up */
+ .jumbotron {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 50px;
+     color: snow;
+     /* text-shadow: 2px 2px black; */
+     text-align: center;
+     margin: auto;
+     position: relative;
+     background-color: transparent;
+ }
+ 
+ .jumbotron > .overlay {
+     position: absolute;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     background-color: rgba(8, 9, 58, 0.5);
+     z-index: 1;
+ }
+ 
+ .jumbotron > .inner {
+     position: relative;
+     z-index: 2;
+ }
+ 
+ /* overlay an opaque dark color so the text will still show up */
+ .hero {
+     font-family: 'Arial', sans-serif;
+     background-color: rgba(8, 9, 58, 0.8);
+     background-size: cover;
+     min-height: 500px;
+     font-size: 50px;
+     color: whitesmoke;
+     margin: 0px;
+     position: relative;
+ }
+ 
+ .hero > .overlay {
+     position: absolute;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     background-color: rgba(8, 9, 58, 0.8);
+     z-index: 1;
+ }
+ 
+ .hero > .inner {
+     position: relative;
+     z-index: 2;
+ }
+ 
+ .h3-white {
+     font-family: 'Arial', sans-serif;
+     font-size: 20px;
+     text-align: center;
+     color: whitesmoke;
+     padding:30px;
+ }
+ 
+ .whitespace {
+     padding: 30px;
+ }
+ 
+ .blockquote {
+     padding: 0.5rem 1rem;
+     margin-bottom: 2rem;
+     font-size: 1rem;
+     border-left: 7px solid rgb(235, 45, 31);
+ }
+ 
+ .well {
+     background-color: rgba(255, 255, 255, .5) !important;
+ }
+ 
+ .whiteB {
+     background-color: whitesmoke;
+ }
+ 
+ .form-group {
+     background-color: rgba(255, 255, 255, .5);
+ }
+ 
+ .carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+   width: 60%;
+   margin: auto;
+ }
+ 
+ .bg-light {
+     background-color: #f8f9fa !important;
+   }
+   
+ a.bg-light:hover, a.bg-light:focus,
+ button.bg-light:hover,
+ button.bg-light:focus {
+ background-color: #dae0e5 !important;
+ }
+
+ .container-fluid {
+    width: 90vw;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: rgb(239, 237, 237);
+    overflow: hidden;
+ }
+
+ /* ======================================
+ Styling for the navigate section
+ ====================================== */
+
+ #navbar {
+   background-color: #AD221B;
+   border-bottom: 1px;
+   margin-bottom: 0px;/* Set the navbar to fixed position */
+   top: 0; /* Position the navbar at the top of the page */
+   width: 100%; /* Full width */
+   font-family: Arial, Helvetica, sans-serif;
+ }
+
+nav .navbar {
+    background-color: #AD221B;
+    border-bottom: 1px;
+    margin-bottom: 0px;/* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    min-height:32px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.navbar-nav > li > a {
+    padding-top:5px !important; 
+    padding-bottom:5px !important;
+}
+
+nav #dropdownmenu {
+    color: black;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #AD221B;
+}
+
+ /* Navbar links */
+ #navbar a {
+   float: left;
+   display: block;
+   text-align: center;
+   padding: 14px;
+   text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   color: red;
+ }
+
+ #navbar .nav-link {
+     font-size: 16px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ .legend {
+     padding: 6px 8px;
+     font: 12px 'Arial', sans-serif;
+     font-weight: bold;
+     color: #555;
+     background: #fff;
+     background: rgba(255, 255, 255, 0.8);
+     border-radius: 3px;
+     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+ }
+   
+ .legend ul {
+     padding: 0;
+     margin: 0;
+     clear: both;
+     list-style-type: none;
+ }
+   
+ .legend li {
+     display: inline-block;
+     width: 24px;
+     height: 22px;
+ }
+   
+ .legend .min {
+     float: left;
+     padding-bottom: 5px;
+ }
+   
+ .legend .max {
+     float: right;
+ }
+ 
+ .legend p {
+     font-family: 'Arial', sans-serif;
+     font-size: 20px;
+     text-align: center;x
+     color: rgb(34, 33, 33);
+     margin: 2px;
+ }
+ 
+ #PopSlider .slider-selection {
+     background: #fdba9f;
+ }
+ 
+ #PopSlider .slider-handle {
+     background: #eb2d1f;
+ }
+ 
+ #SpendSlider .slider-selection {
+     background: #fdba9f;
+ }
+ 
+ #SpendSlider .slider-handle {
+     background: #eb2d1f;
+ }
+ 
+ /* ======================================
+  Tooltips
+  ====================================== */
+ 
+ a.tooltip {outline:none; }
+ a.tooltip strong {line-height:30px;}
+ a.tooltip:hover {text-decoration:none;} 
+ a.tooltip span {
+     z-index:10;display:none; padding:14px 20px;
+     margin-top:60px; margin-left:-160px;
+     width:300px; line-height:16px;
+ }
+ a.tooltip:hover span{
+     display:inline; position:absolute; 
+     border:2px solid #FFF;  color:#EEE;
+     background:rgb(83, 248, 243) url(http://www.menucool.com/tooltip/cssttp/css-tooltip-gradient-bg.png) repeat-x 0 0;
+ }
+ 
+ .callout {z-index:20;position:absolute;border:0;top:-14px;left:120px;}
+     
+ /*CSS3 extras*/
+ a.tooltip span
+ {
+     border-radius:2px;        
+     box-shadow: 0px 0px 8px 4px #666;
+     /*opacity: 0.8;*/
+ }
+ 
+ /* 
+ ######################
+     Fancy gauges 
+ ###################### 
+ */
+ .wrapper {
+     position: relative;
+     width: 100%;
+     height: 380px;
+ }
+ 
+ .box {
+     width: 100%;
+ }
+ 
+ .gauge {
+     width: 100%;
+     height: 240px;
+ }
+ 
+ .flexbox {
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+ .flexbox>div {
+     flex: 1 0 300px;
+ }
+ 
+
+/* Styling for hover image */
+.img-container {
+    position: relative;
+    width: 33%;
+    border-radius: 5px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.img-container .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(235, 235, 240, .9);
+}
+
+.img-container:hover .overlay {
+    opacity: 1;
+    border-radius: 5px;
+}
+
+.img-text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1vw; 
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    list-style-position: inside;
+    text-shadow: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.mapael .map {
+    position: relative;
+  }
+
+.mapael .mapTooltip {
+    position: absolute;
+    background-color: #fff;
+    -moz-opacity: 0.70;
+    opacity: 0.70;
+    filter: alpha(opacity=70);
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 1000;
+    max-width: 200px;
+    display: none;
+    color: #343434;
+  }
+
+
+@media screen and (max-width: 767px) {
+    .container {
+        margin: 0rem;
+        size: 1vw;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        margin: 0rem;
+        border-radius: 5px;
+    }
+
+}
