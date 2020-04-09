@@ -3,7 +3,7 @@
 Final project for Data Analytics and Visualization
 Feb 2020 – Mar 2020
 
-Project description?? The final graduation project for Data Analytics and Visualization at The George Washington University.
+Project description - The final graduation project for Data Analytics and Visualization at The George Washington University.
 
 - Build and deploy webpage for childhood immunization: https://childhood-immunizations.herokuapp.com/
 - Responsible for building dashboards in Tableau, gather inputs, and upload on Heroku.
