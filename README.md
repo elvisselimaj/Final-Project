@@ -19,7 +19,7 @@ Global sentiment - international data showing how countries feel about importanc
 What does the online conversation look like? Natural language processing of blog and Twitter hashtag to show common topics and how anti-vaxxers use different online platforms
 Conclude with explanation of how diseases spread and therefore why vaccination is important
 
-![agrees-vaccines-are-important-wellcome](agrees-vaccines-are-important-wellcome.twbx)
+![agrees-vaccines-are-important-wellcome](childhood-immunizations/Global%20maps/agrees-vaccines-are-important-wellcome.twbx)
 
  
 
